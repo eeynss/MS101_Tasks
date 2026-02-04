@@ -23,13 +23,9 @@ I enjoy building things on the web and learning how code works behind the scenes
 
 ### 📁 Projects
 
-- **Midterm Lab Task 1**  
-  *Resume Writing using HTML*  
-  → `labTask1/test.md`
+- 📁 **[Task 1 – Resume](./Task%201%20-%20Resume/)**
+- 📁 **[Task 2 – Unorder and Order List](./Task%202%20-%20Unorder%20and%20Order%20List/)**
 
-- **Midterm Lab Task 2**  
-  *Tables and Lists in HTML*  
-  → `labTask2/test.md`
 
 ---
 
