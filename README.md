@@ -1,6 +1,7 @@
 ## 👋 Hello, I’m Rayne Bautista
 
-<img src="./.assets/me (2).png" width="250">
+![Profile](https://user-images.githubusercontent.com/xxxxxxx/profile.png)
+
 
 I enjoy building things on the web and learning how code works behind the scenes.
 
