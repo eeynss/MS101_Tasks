@@ -1,6 +1,6 @@
 ## 👋 Hello, I’m Rayne Bautista
 
-<img src="./.assets/104753643.jfif" width="180">
+<img src="./.assets/me.png" width="180">
 
 I enjoy building things on the web and learning how code works behind the scenes.
 
