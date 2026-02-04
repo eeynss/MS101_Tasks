@@ -1,5 +1,8 @@
 ## 👋 Hello, I’m Rayne Bautista
 
+![Profile](./.assets/104753643.jfif)
+
+
 I enjoy building things on the web and learning how code works behind the scenes.
 
 ---
