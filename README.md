@@ -3,7 +3,7 @@
 
 <img src="./.assets/me (2).png" width="250">
 
-I enjoy building things on the web and learning how code works behind the scenes.
+I enjoy building for the web and learning how code works behind the scenes.
 
 ---
 
@@ -19,7 +19,7 @@ I enjoy building things on the web and learning how code works behind the scenes
 
 - HTML  
 - CSS 
-- Git & GitHub  
+- GitHub  
 - VS Code  
 
 ---
@@ -36,4 +36,4 @@ I enjoy building things on the web and learning how code works behind the scenes
 
 ---
 
-> Learning step by step. Building one project at a time.
+> Still learning and building, one small step at a time.
