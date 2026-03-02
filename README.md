@@ -31,6 +31,7 @@ I enjoy building things on the web and learning how code works behind the scenes
 - 📁 **[Task 3 - Map](./Task%203%20-%20Image%20Map)**
 - 📁 **[Task 4 - HTML Form](./Task%204%20-%20HTML%20Form/)**
 - 📁 **[Task 5 - Using Inline and Internal CSS](./Task%205%20-%20Using%20Inline%20and%20Internal%20CSS/)**
+- 📁 **[Task 6 - Using Using Display Property](./Task%206%20-%20Using%20Display%20Property/)**
 
 
 ---
