@@ -1,19 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>MS101 Tasks</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayne's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>My MS101 Web Development Tasks</h1>
 
-    <ul>
-        <li><a href="Task 1 - Resume/index.html">Task 1 - Resume</a></li>
-        <li><a href="Task 2 - Unorder and Order List/index.html">Task 2</a></li>
-        <li><a href="Task 3 - Image Map/index.html">Task 3</a></li>
-        <li><a href="Task 4 - HTML Form/index.html">Task 4</a></li>
-        <li><a href="Task 5 - Using Inline and Internal CSS/index.html">Task 5</a></li>
-        <li><a href="Task 6 - Using Display Property/index.html">Task 6</a></li>
-    </ul>
+  <header>
+    <a href="#" class="logo">🗃️ My Portfolio</a>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="home-img">
+      <img src="pictures/me3.png" alt="Rayne Bautista" />
+    </div>
+    <div class="home-content">
+      <h1>Hi, I'm <span>Rayne Bautista</span></h1>
+      <h3 class="typing-text">I'm a <span></span></h3>
+      <p>Passionate about tech, design, and exploring new ideas!</p>
+      <div class="social-box">
+        <span class="contact-label">My Contact</span>
+        <div class="social-inner">
+          <div class="icons">
+            <a href="#"><img src="pictures/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="pictures/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="pictures/telegram.png" alt="Telegram"></a>
+            <a href="#"><img src="pictures/tiktok.png" alt="TikTok"></a>
+            <a href="#"><img src="pictures/gmail.webp" alt="Gmail"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section id="about">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <!-- Who am I Section -->
+    <div class="small-box">
+      <h3>Who am I?</h3>
+      <p>I'm Rayne Bautista, a student passionate about web development. I enjoy learning new skills to create simple and functional websites. My journey is just starting, and I'm excited to continue growing and improving. I'm focused on learning and building skills that will help me become a better developer soon, one step at a time.</p>
+    </div>
+    <!-- Other Sections Below -->
+    <div class="small-box">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>Current:</strong> Pampanga State Agricultural University (BSIT)</li>
+        <li><strong>Senior High:</strong> Benigno S. Aquino National High School (HUMSS)</li>
+      </ul>
+    </div>
+
+    <div class="small-box">
+      <h3>Skills</h3>
+      <ul>
+        <li>Graphic Design</li>
+        <li>Digital Art</li>
+        <li>Time Management</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+
+    <div class="small-box">
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Gaming</li>
+        <li>Designing</li>
+        <li>Music</li>
+        <li>Movies</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <section id="projects">
+    <h2>My Midterm Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Description of project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="output1.html" target="_blank" class="project-btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Description of project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="output2.html" target="_blank" class="project-btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 3</h3>
+        <p>Description of project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="output3.html" target="_blank" class="project-btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 4</h3>
+        <p>Description of project 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="output3.html" target="_blank" class="project-btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 5</h3>
+        <p>Description of project 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="output3.html" target="_blank" class="project-btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 6</h3>
+        <p>Description of project 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="output3.html" target="_blank" class="project-btn">View Project</a>
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
