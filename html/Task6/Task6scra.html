@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab Task 6 - Display Property</title>
+
+<style>
+
+/* ===== DISPLAY EXAMPLES ===== */
+
+span.displayInlineExample {
+  display: inline;
+  padding: 5px;
+  border: 2px solid rgb(90, 30, 30);
+}
+
+span.displayInlineBlockExample {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  padding: 5px;
+  border: 2px solid rgb(140, 30, 30);
+}
+
+span.displayBlockExample {
+  display: block;
+  width: 100px;
+  height: 35px;
+  padding: 5px;
+  border: 2px solid rgb(52, 0, 90);
+}
+
+/* ===== LAB TASK 6 SECTION ===== */
+
+.aTextboxBlock {
+  display: block;
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.aInlineButton {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.googldeContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.aGoogleSearchBox {
+  width: 400px;
+  padding: 8px;
+}
+
+.aSignupContainer {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid gray;
+  margin-top: 30px;
+}
+
+.aSignupButton {
+  width: 100%;
+  height: 35px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+}
+
+.aUberContainer {
+  width: 350px;
+  padding: 15px;
+  border: 1px solid gray;
+  margin-top: 30px;
+}
+
+.aUberButtonPrimary {
+  display: inline-block;
+  width: 48%;
+  height: 35px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+.aUberButtonSecondary {
+  display: inline-block;
+  width: 48%;
+  height: 35px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>The Display Property</h1>
+
+<h2>display: inline</h2>
+<div>
+Lorem ipsum dolor sit amet.
+<span class="displayInlineExample">Aliquam</span>
+<span class="displayInlineExample">venenatis</span>
+gravida nisl sit amet facilisis.
+</div>
+
+<h2>display: inline-block</h2>
+<div>
+Lorem ipsum dolor sit amet.
+<span class="displayInlineBlockExample">Aliquam</span>
+<span class="displayInlineBlockExample">venenatis</span>
+gravida nisl sit amet facilisis.
+</div>
+
+<h2>display: block</h2>
+<div>
+Lorem ipsum dolor sit amet.
+<span class="displayBlockExample">Aliquam</span>
+<span class="displayBlockExample">venenatis</span>
+gravida nisl sit amet facilisis.
+</div>
+
+<hr>
+
+<h2>Lab Task 6 Practice</h2>
+
+
+<input type="text" class="Textboxblox" placeholder="Name">
+<input type="email" class="aTextboxBlock" placeholder="Email">
+
+<p style="display:inline;">
+Thanks for chatting with our customer support.
+Would you like to take our quick survey?
+</p>
+
+<button class="aInlineButton">Yes</button>
+<button class="aInlineButton">No</button>
+
+
+<div class="googleContainer">
+  <br>
+  <img src="../../picture/a910d418-7123-4bc4-aa3b-ef7e25e74ae6.faa49ab5e1fff880.webp" width="200">
+  <br><br>
+  <input type="text" class="aGoogleSearchBox"
+         placeholder="Search Google or type a URL">
+</div>
+
+
+<div class="aSignupContainer">
+  <input type="text" class="aTextboxBlock" placeholder="First Name">
+  <input type="text" class="aTextboxBlock" placeholder="Last Name">
+  <input type="email" class="aTextboxBlock" placeholder="Email">
+  <button class="aSignupButton">Sign Up</button>
+</div>
+
+
+<div class="aUberContainer">
+  <h2>Request a ride now</h2>
+
+  <input type="text" class="aTextboxBlock" placeholder="Enter pickup location">
+  <input type="text" class="aTextboxBlock" placeholder="Enter destination">
+
+  <button class="aUberButtonPrimary">Request now</button>
+  <button class="aUberButtonSecondary">Schedule for later</button>
+</div>
+
+</body>
+</html>

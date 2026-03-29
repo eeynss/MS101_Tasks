@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS RESUME</title>
+
+  <!-- INTERNAL CSS -->
+  <style>
+    /* 1) BODY requirements */
+    body{
+      background-color: #202c45;          /* any color */
+      margin: 100px;                      /* top right bottom left */
+      font-family: Arial, Helvetica, sans-serif; /* appropriate font */
+      color:#222;
+    }
+
+    /* 2) CLASS selector for ALL h2 */
+    .h2style{
+      color:#1e4bd1;
+      text-align:center;
+      margin: 10px 0 6px;
+    }
+
+    /* 4) ID selector below the image (name, address, email, contact) */
+    #info{
+      text-align:center;
+      line-height: 12px;   /* height set to 12 (line height) */
+      margin-top: 10px;
+    }
+
+    /* 7.3 Remove underline for ALL links */
+    a{
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* 7.4 Link states (different colors) */
+    a:link{ color:#0b63ce; }
+    a:visited{ color:#6a1bb5; }
+    a:hover{ color:#e63946; }
+    a:active{ color:#0a8f3d; }
+
+    /* Optional styling for sections, paragraphs, lists */
+    .section{
+      padding: 10px 0;
+      border-top: 1px solid #cfd8ff;
+      margin-top: 12px;
+    }
+    h4{
+      color:#111;
+      margin: 6px 0;
+    }
+    p{
+      margin: 6px 0;
+    }
+    ul{
+      margin: 6px 0 6px 20px;
+    }
+
+    /* 6) Table style using ID selector */
+    #charTable{
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    #charTable th, #charTable td{
+      border: 2px solid #222;
+      padding: 8px;
+      text-align: left;
+    }
+    #charTable th{
+      background: #dbe7ff;
+    }
+
+    /* Navigation links */
+    #navlinks{
+      text-align:center;
+      margin: 12px 0 18px;
+    }
+    #navlinks a{
+      margin: 0 8px;
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- NAV links within the page -->
+  <div id="navlinks">
+    <a href="#summary">Summary</a> |
+    <a href="#education">Education</a> |
+    <a href="#experience">Experience</a> |
+    <a href="#hardware">Hardware Skills</a> |
+    <a href="#software">Software Skills</a>
+  </div>
+
+  <!-- IMAGE (INLINE STYLE) + CENTER + BORDER -->
+  <div id="image-container" style="text-align:center;">
+    <img
+      src="../../picture/me.png"
+      alt="My Picture"
+      width="200"
+      height="200"
+      style="display:block; margin:0 auto; border:5px solid #1e4bd1; border-radius:12px;"
+    />
+  </div>
+
+  <!-- BELOW IMAGE: use ID selector -->
+  <div id="info">
+    <h2 class="h2style">BAUTISTA, RAYNE DELA CRUZ</h2>
+    <p>
+      <b>Email:</b>
+      <a href="mailto:eeynbautista@gmail.com">eeynbautista@gmail.com</a><br>
+      <b>Phone:</b> 09664861431<br>
+      <b>Address:</b> 5 Purok 1, San Jose, Magalang Pampanga
+    </p>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="section" id="summary">
+    <h4>Summary</h4>
+    <p>
+      I’m an IT student passionate about learning coding and web development.
+      I enjoy building useful apps and websites, and I’m excited to grow my skills through future projects.
+    </p>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section" id="education">
+    <h4>Education</h4>
+    <ul>
+      <li>BS in Information Technology</li>
+      <li>General Academic Strand (2023–2024)</li>
+      <li>Morong National High School</li>
+      <li>Pandacaqui Elementary School</li>
+    </ul>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section" id="experience">
+    <h4>Experience</h4>
+    <ul>
+      <li>Worked at a Milktea Shop "BOYTEA" as Cashier and Cleaner</li>
+      <li>Edited User Interface using Figma</li>
+    </ul>
+  </div>
+
+  <!-- HARDWARE SKILLS -->
+  <div class="section" id="hardware">
+    <h4>Hardware Skills</h4>
+    <ul>
+      <li>Assembling and disassembling computer parts</li>
+      <li>Troubleshooting computer problems</li>
+      <li>Basic configuration of RAM, CPU, and motherboards</li>
+    </ul>
+  </div>
+
+  <!-- SOFTWARE SKILLS -->
+  <div class="section" id="software">
+    <h4>Software Skills</h4>
+    <ul>
+      <li>Basic Web Development (HTML/CSS)</li>
+      <li>UI Design (Figma)</li>
+      <li>Basic Editing</li>
+    </ul>
+  </div>
+
+  <!-- CHARACTER REFERENCES -->
+  <div class="section" id="character">
+    <h2 class="h2style">Character References</h2>
+
+    <table id="charTable">
+      <tr>
+        <th>FULLNAME</th>
+        <th>DESIGNATION</th>
+        <th>EMAIL</th>
+        <th>CONTACT NUMBER</th>
+      </tr>
+      <tr>
+        <td>Rosalinda Bautista</td>
+        <td>House Keeper</td>
+        <td>rosalindab@gmail.com</td>
+        <td>09161128839</td>
+      </tr>
+      <tr>
+        <td>Reinhard Bautista</td>
+        <td>Fisher</td>
+        <td>Reinhard71@gmail.com</td>
+        <td>09669143651</td>
+      </tr>
+    </table>
+
+    <p style="margin-top:10px;">
+      I HEREBY CERTIFY that the information provided above is true and correct to the best of my knowledge.
+    </p>
+  </div>
+
+  <!-- 8) Back to Top link (href + id selector) -->
+  <div class="section" style="text-align:center;">
+    <a href="#top">Back to Top</a>
+  </div>
+
+</body>
+</html>
