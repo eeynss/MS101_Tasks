@@ -1,4 +1,8 @@
-## 👋 Hello, I’m Rayne Bautista , Visit My Website You can view my portfolio at [Rayne's Portfolio](https://eeyns.github.io/MS101_Tasks/).
+## 👋 Hello, I’m Rayne Bautista 
+
+---
+Visit My Website You can view my portfolio at 
+[Rayne's Portfolio](https://eeyns.github.io/MS101_Tasks/).
 
 
 <img src="./.assets/me (2).png" width="250">
