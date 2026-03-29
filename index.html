@@ -6,16 +6,18 @@
   <title>Rayne's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+  <script src="script.js"></script>
 <body>
 
-  <header>
-    <a href="#" class="logo">🗃️ My Portfolio</a>
-    <nav>
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-    </nav>
-  </header>
+<header>
+  <a href="#" class="logo">🗃️ My Portfolio</a>
+  <nav id="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+  </nav>
+  <button id="menu-toggle" class="menu-toggle">☰</button> <!-- Add this button for toggling -->
+</header>
 
   <section id="home" class="home">
     <div class="home-img">
@@ -24,7 +26,7 @@
     <div class="home-content">
       <h1>Hi, I'm <span>Rayne Bautista</span></h1>
       <h3 class="typing-text">I'm a <span></span></h3>
-      <p>Passionate about tech, design, and exploring new ideas!</p>
+      <p>I am deeply passionate about technology, design, and exploring new ideas. Always eager to learn, I strive to improve my skills and push creative boundaries. I aim to unlock fresh possibilities and continue evolving in this ever-changing world.!</p>
       <div class="social-box">
         <span class="contact-label">My Contact</span>
         <div class="social-inner">
@@ -34,11 +36,15 @@
             <a href="https://t.me/eeynch" target="_blank"><img src="pictures/telegram.png" alt="Telegram"></a>
             <a href="https://www.tiktok.com/@eeyuns" target="_blank"><img src="pictures/tiktok.png" alt="TikTok"></a>
             <a href="mailto:eeynbautista@gmail.com"><img src="pictures/gmail.webp" alt="Gmail"></a>
+            <a href="https://github.com/eeynss/MS101_Tasks" target="_blank"><img src="pictures/github.webp" alt="github"></a>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <section id="about">
+    <h2>About Me</h2>
 
  <section id="about">
   <h2>About Me</h2>
@@ -46,22 +52,22 @@
     <!-- Who am I Section -->
     <div class="small-box">
       <h3>Who am I?</h3>
-      <p>I'm Rayne Bautista, a student passionate about web development. I enjoy learning new skills to create simple and functional websites. My journey is just starting, and I'm excited to continue growing and improving. I'm focused on learning and building skills that will help me become a better developer soon, one step at a time.</p>
+      <p>I'm Rayne Bautista 19 years old, a student passionate about web development. I enjoy learning new skills to create simple and functional websites. My journey is just starting, and I'm excited to continue growing and improving. I'm focused on learning and building skills that will help me become a better developer soon, one step at a time.</p>
     </div>
     <!-- Other Sections Below -->
     <div class="small-box">
       <h3>Education</h3>
       <ul>
         <li><strong>Current:</strong> Pampanga State Agricultural University (BSIT)</li>
-        <li><strong>Senior High:</strong> Benigno S. Aquino National High School (HUMSS)</li>
+        <li><strong>Senior High:</strong> Jesus My Shepherd Montessori School Coporation (GAS)</li>
       </ul>
     </div>
 
     <div class="small-box">
       <h3>Skills</h3>
       <ul>
-        <li>Graphic Design</li>
-        <li>Digital Art</li>
+        <li>Designing a little</li>
+        <li>Can Munlti Task</li>
         <li>Time Management</li>
         <li>Problem Solving</li>
       </ul>
@@ -70,10 +76,10 @@
     <div class="small-box">
       <h3>Hobbies</h3>
       <ul>
-        <li>Gaming</li>
-        <li>Designing</li>
-        <li>Music</li>
-        <li>Movies</li>
+        <li>Gaming 🎮</li>
+        <li>Designing 🖼️</li>
+        <li>Listening Music 🎧</li>
+        <li>Watching Movies 🍿</li>
       </ul>
     </div>
   </div>
@@ -83,37 +89,36 @@
     <h2>My Midterm Projects</h2>
     <div class="projects-container">
       <div class="project-card">
-        <h3>Task 1</h3>
+        <h3>Task 1 📃</h3>
         <p>Resume</p>
         <a href="html/task1.html" target="_blank" class="project-btn">View Project</a>
       </div>
       <div class="project-card">
-        <h3>Task 2</h3>
+        <h3>Task 2  📋</h3>
         <p>Unorder and Order List</p>
         <a href="html/task2.html" target="_blank" class="project-btn">View Project</a>
       </div>
       <div class="project-card">
-        <h3>Task 3</h3>
+        <h3>Task 3 🗺️</h3>
         <p>Image Map</p>
         <a href="html/Task3.html" target="_blank" class="project-btn">View Project</a>
       </div>
       <div class="project-card">
-        <h3>Task 4</h3>
+        <h3>Task 4 📰</h3>
         <p>HTML Form</p>
         <a href="html/Task4.html" target="_blank" class="project-btn">View Project</a>
       </div>
       <div class="project-card">
-        <h3>Task 5</h3>
+        <h3>Task 5 🗞️</h3>
         <p>Using Inline and Internal CSS</p>
         <a href="html/Task5/task5.html" target="_blank" class="project-btn">View Project</a>
       </div>
       <div class="project-card">
-        <h3>Task 6</h3>
+        <h3>Task 6 🗃️</h3>
         <p>Task 6 - Using Display Property</p>
         <a href="html/Task6/task6.html" target="_blank" class="project-btn">View Project</a>
       </div>
     </div>
   </section>
-
 </body>
 </html>

@@ -48,19 +48,61 @@ header {
   transform: scale(1.05);
 }
 
-nav a {
-  font-size: 1.6rem;
-  color: #e0e0e0;
-  margin-left: 3rem;
-  font-weight: 500;
+/* Style the menu button */
+.menu-toggle {
+  display: none;
+  background-color: #1c1c1c;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
   transition: 0.3s ease;
-  border-bottom: 3px solid transparent;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
 }
 
-nav a:hover,
-nav a.active {
+/* Style for the side navigation */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Hide the menu off-screen by default */
+  width: 250px;
+  height: 100vh;
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  z-index: 99;
+  transition: 0.3s;
+}
+
+#navbar a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 2rem;
+  transition: 0.3s;
+}
+
+#navbar a:hover {
   color: rgb(126, 16, 16);
-  border-bottom: 3px solid rgb(180, 24, 24);
+}
+
+/* When the side menu is toggled, move it into view */
+#navbar.open {
+  left: 0;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show the menu button on small screens */
+  }
+
+  nav {
+    display: none; /* Hide the default horizontal nav menu */
+  }
 }
 
 /* Home Section */
