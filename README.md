@@ -2,7 +2,7 @@
 
 ---
 Visit My Website You can view my portfolio at 
-[Rayne's Portfolio](https://eeyns.github.io/MS101_Tasks/).
+[Rayne's Portfolio]([https://eeyns.github.io/MS101_Tasks/](https://eeynss.github.io/MS101_Tasks/)).
 
 
 <img src="./.assets/me (2).png" width="250">
