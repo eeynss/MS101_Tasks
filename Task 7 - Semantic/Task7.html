@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Layout</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+
+    header, footer {
+      background-color: rgb(132, 174, 199);
+      color: rgb(255, 255, 255);
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      background-color: rgb(247, 197, 218);
+      margin: 0px;
+      overflow: hidden;
+    }
+
+    nav li a {
+      float: left;
+      text-decoration: none;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav li a:hover { background-color: rgb(211, 106, 171); }
+
+    aside {
+      width: 20%;
+      float: left;
+      padding: 5px;
+    }
+
+    section {
+      width: 40%;
+      float: left;
+      padding: 5px;
+    }
+
+    article {
+      width: 40%;
+      float: left;
+      padding: 5px;
+    }
+
+    footer { clear: both; }
+
+    @media screen and (max-width: 800px) {
+      aside,
+      section,
+      article {
+        width: 100%;
+        float: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to my Page</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <aside>
+    <h2>Aside</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Lorem ipsum dolor sit amet consectetur adipiscing elit.
+      Fugiat ipsum odit velit neque mollitia impedit ab sunt
+      voluptas ipsa officia accusantium eos ducimus delectus
+      exercitationem adipisci, voluptate voluptatibus tenetur dolorum?
+    </p>
+  </aside>
+
+  <section>
+    <h2>Section</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Perferendis veritatis nam ullam esse vel pariatur nobis ab
+      suscipit temporibus voluptatum deleniti, corporis similique
+      repellat placeat at, voluptates explicabo, iure cumque!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Laborum eaque ipsum ea aut voluptas asperiores aperiam
+      repudiandae amet adipisci, ratione explicabo sapiente totam
+      officia neque dolore! Exercitationem corporis temporibus eveniet.
+    </p>
+  </section>
+
+  <article>
+    <h2>Article</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+      commodi! Necessitatibus, qui! Vero obcaecati nobis sint
+      dignissimos praesentium, odit deserunt qui possimus provident
+      odio maiores, delectus necessitatibus recusandae! Minus, fuga.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+      debitis pariatur provident quos magnam commodi, iure
+      voluptatibus earum distinctio vel, nobis quo fugit enim
+      molestias corrupti, dolores et similique? Quaerat.
+    </p>
+  </article>
+
+  <footer>
+    <p>This is my footer line</p>
+  </footer>
+
+</body>
+</html>
