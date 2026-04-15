@@ -1,8 +1,6 @@
-## 👋 Hello, I’m Rayne Bautista 
+## 👋 Hello, I’m Rayne Bautista [![GitHub](https://img.shields.io/badge/GitHub-181717?style=rounded&logo=github&logoColor=white)](https://github.com/eeynss)[![Portfolio](https://img.shields.io/badge/Visit-My%20Website-000000?style=rounded&logo-the-badge&logo=google-chrome&logoColor=white)](https://eeynss.github.io/MS101_Tasks/)
 
 ---
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=rounded&logo=github&logoColor=white)](https://github.com/eeynss)
-[![Portfolio](https://img.shields.io/badge/Visit-My%20Website-000000?style=rounded&logo-the-badge&logo=google-chrome&logoColor=white)](https://eeynss.github.io/MS101_Tasks/)
 
 <img src="./.assets/me (2).png" width="250">
 
