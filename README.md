@@ -1,8 +1,8 @@
 ## 👋 Hello, I’m Rayne Bautista 
 
 ---
-You can view my portfolio 👇
-[Rayne's Portfolio](https://eeynss.github.io/MS101_Tasks/).
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourwebsite.com)
 
 
 <img src="./.assets/me (2).png" width="250">
@@ -46,7 +46,7 @@ I enjoy building for the web and learning how code works behind the scenes.
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)
 ![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## 🌐 Socials
 
