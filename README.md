@@ -42,4 +42,15 @@ I enjoy building for the web and learning how code works behind the scenes.
 - 📁 **[Final Task 1 – Using Flex to Create Responsive Web Layout](./Final%20Task%201%20-%20Creating%20Responsive%20Layout%20using%20Flex%20Display%20Property)**
 ---
 
+## 🖥️ Tech Stack
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3)
+
+## 🌐 Socials
+
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/eeynbautista)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/EEYNCHZ)
+
 > Still learning and building, one small step at a time.
