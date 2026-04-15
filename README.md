@@ -32,8 +32,10 @@ I enjoy building for the web and learning how code works behind the scenes.
 
 ## 🖥️ Tech Stack
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=rounded&logo-the-badge&logo=javascript)
-![HTML5](https://img.shields.io/badge/-HTML5-black?style=rounded&logo-the-badge&logo=html5)
+## 🖥️ Tech Stack
+![Java](https://img.shields.io/badge/Java-F80000?style=rounded&logo-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=rounded&logo-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-black?style=rounded&logo-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=rounded&logo-the-badge&logo=css3&logoColor=white)
 
 ## 🌐 Socials
