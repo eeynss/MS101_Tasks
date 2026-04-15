@@ -2,10 +2,10 @@
 
 ---
 <a href="https://github.com/yourusername">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=rounded&logo-the-badge&logo=github&logoColor=white" width="80" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=rounded&logo-the-badge&logo=github&logoColor=white" width="100" />
 </a>
 <a href="https://yourwebsite.com">
-  <img src="https://img.shields.io/badge/Website-000000?style=rounded&logo-the-badge&logo=google-chrome&logoColor=white" width="80" />
+  <img src="https://img.shields.io/badge/Website-000000?style=rounded&logo-the-badge&logo=google-chrome&logoColor=white" width="100" />
 </a>
 
 <img src="./.assets/me (2).png" width="250">
