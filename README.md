@@ -28,7 +28,7 @@ I enjoy building for the web and learning how code works behind the scenes.
 
 ---
 
-### 📁 Projects
+### 📁 Midterm Projects
 
 - 📁 **[Task 1 – Resume](./Task%201%20-%20Resume/)**
 - 📁 **[Task 2 – Unorder and Order List](./Task%202%20-%20Unorder%20and%20Order%20List/)**
@@ -36,8 +36,10 @@ I enjoy building for the web and learning how code works behind the scenes.
 - 📁 **[Task 4 - HTML Form](./Task%204%20-%20HTML%20Form/)**
 - 📁 **[Task 5 - Using Inline and Internal CSS](./Task%205%20-%20Using%20Inline%20and%20Internal%20CSS/)**
 - 📁 **[Task 6 - Using Using Display Property](./Task%206%20-%20Using%20Display%20Property/)**
+- 📁 **[Task 7 - Using Semantic HTML](./Task%207%20-%20Semantic)**
 
-
+### 📁 Finals Projects
+- 📁 **[Final Task 1 – Using Flex to Create Responsive Web Layout](./Final%20Task%201%20-%20Creating%20Responsive%20Layout%20using%20Flex%20Display%20Property)**
 ---
 
 > Still learning and building, one small step at a time.
