@@ -25,7 +25,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 20px; /* Added padding for spacing */
 }
 
 .logo {
@@ -463,10 +463,10 @@ section .main-container {
 
 @keyframes shine {
     0% {
-        left: -100%; 
+        left: -100%; /* Shine starts off-screen */
     }
     100% {
-        left: 150%;
+        left: 150%; /* Shine moves across */
     }
 }
 
@@ -656,7 +656,7 @@ section .main-container {
 
 #finalprojects .project-card:hover {
   transform: scale(1.05);
-}
+}/* Responsive adjustments for Android/iPhone/all devices */
 @media (max-width: 1200px) {
   .nav-container { padding: 0 16px; }
   .nav-container .links { gap: 14px; }

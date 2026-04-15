@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #222;
+}
+
+header {
+  background-color: #550000;
+  color: #fff;
+  padding: 18px 20px;
+}
+
+header h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ddd;
+}
+
+
+nav {
+  width: 160px;
+  border-right: 1px solid #ddd;
+}
+
+
+nav ul li a {
+  border: #fff3f3 solid 1px;
+  border-radius: 10px;
+  display: block;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #380d0d;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #eee;
+}
+
+nav ul li a:hover { 
+  background-color: #6e2a2a; 
+}
+
+nav ul li.active a {
+  background-color: #f50000;
+  color: #fff;
+  font-weight: bold;
+}
+
+main {
+  width: calc(100% - 320px);
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 1.35rem;
+  margin-bottom: 12px;
+}
+
+main h3 {
+  font-size: 1.05rem;
+  margin: 16px 0 8px;
+}
+
+main p {
+  line-height: 1.65;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+main a {
+  color: #003679;
+  text-decoration: underline;
+}
+
+aside {
+  width: 160px;
+  background-color: #832c2c;
+  color: #fff;
+  padding: 14px;
+}
+
+aside h4 {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+aside p {
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+
+footer {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 12px 20px;
+  font-size: 0.78rem;
+  color: #444;
+  line-height: 1.65;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  nav {
+    width: 160px;
+    order: 1;
+    border-right: 1px solid #ddd;
+  }
+
+  main {
+    width: calc(100% - 160px);
+    order: 2;
+  }
+
+  aside {
+    width: 100%;
+    order: 3;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+    order: 1;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  main {
+    width: 100%;
+    order: 2;
+  }
+
+  aside {
+    width: 100%;
+    order: 3;
+  }
+
+  header h1 {
+    font-size: 1.3rem;
+  }
+}
