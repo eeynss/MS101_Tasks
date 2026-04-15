@@ -3,9 +3,8 @@
 ---
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=rounded&logo=github&logoColor=white)](https://github.com/eeynss)
 
-[![Website](https://img.shields.io/badge/Website-000000?style=rounded&logo-the-badge&logo=google-chrome&logoColor=white)](https://eeynss.github.io/MS101_Tasks/)
+[![Portfolio](https://img.shields.io/badge/Visit-My%20Website-000000?style=rounded&logo-the-badge&logo=google-chrome&logoColor=white)](https://eeynss.github.io/MS101_Tasks/)
 
-[![Portfolio](https://img.shields.io/badge/Visit-My%20Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourwebsite.com)
 <img src="./.assets/me (2).png" width="250">
 
 I enjoy building for the web and learning how code works behind the scenes.
