@@ -36,7 +36,7 @@ I enjoy building for the web and learning how code works behind the scenes.
 ![HTML5](https://img.shields.io/badge/HTML5-black?style=rounded&logo-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=rounded&logo-the-badge&logo=css3&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-F80000?style=rounded&logo-the-badge&logo=java&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-black?style=rounded&logo-the-badge&logo=figma&logoColor=white)
 
 ## 🌐 Socials
 
