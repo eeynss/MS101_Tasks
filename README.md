@@ -2,7 +2,7 @@
 
 ---
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=rounded&logo=github&logoColor=white)](https://github.com/eeynss)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://eeynss.github.io/MS101_Tasks/)
+[![Website](https://img.shields.io/badge/Website-000000?style=rounded&logo-the-badge&logo=google-chrome&logoColor=white)](https://eeynss.github.io/MS101_Tasks/)
 
 
 <img src="./.assets/me (2).png" width="250">
