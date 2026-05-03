@@ -1,0 +1,91 @@
+    body {
+      background-color: #f0f2ff;
+    }
+
+    .layout4-section {
+      background-color: #f0f2ff;
+    }
+
+    .layout4-section .text-center h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    .layout4-section .text-center p {
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.1rem;
+    }
+
+    .card-grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: 1fr;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .feature-card {
+      background-color: #ffffff;
+      border-radius: 2rem;
+      box-shadow: 0 20px 60px rgba(15, 23, 42, 0.12);
+      min-height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 2.5rem;
+    }
+
+    .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #0d6efd;
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 1.2rem;
+      line-height: 1;
+    }
+
+    .feature-card p {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: #4b5563;
+      line-height: 1.75;
+    }
+
+    .btn-read {
+      background-color: #0d6efd;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      width: 100%;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 999px;
+      transition: background-color 0.2s ease;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .btn-read:hover {
+      background-color: #0b5ed7;
+      color: #fff;
+    }
+
+    @media screen and (min-width: 768px) {
+      .card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      .card-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }

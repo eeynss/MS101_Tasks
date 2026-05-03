@@ -25,7 +25,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; /* Added padding for spacing */
+    padding: 0 20px;
 }
 
 .logo {
@@ -341,7 +341,7 @@ section .main-container {
 
     .timeline {
         position: relative;
-        border-left: 3px solid #4fbf52;
+        border-left: 3px solid #ff0000;
         padding-left: 40px;
     }
 
@@ -392,7 +392,7 @@ section .main-container {
 
     .timeline {
         position: relative;
-        border-left: 3px solid #e60000;
+        border-left: 3px solid #361414;
         margin: 40px 0;
         padding-left: 40px;
     }
@@ -417,13 +417,13 @@ section .main-container {
         color: #fff;
         background: #111;
         border-radius: 50%;
-        border: 2px solid #373f37;
+        border: 2px solid #642b2b;
         padding: 6px 0;
     }
 
     .timeline-card {
         background: #111;
-        border: 1px solid #333;
+        border: 1px solid #363333;
         border-radius: 10px;
         padding: 14px;
         box-shadow: 0 4px 20px rgba(0,0,0,0.5);
@@ -431,13 +431,13 @@ section .main-container {
     }
 
     .timeline-card h3 {
-        color: #8a0202;
+        color: #910000;
         margin-bottom: 6px;
         font-size: 1.1rem;
     }
 
     .timeline-card p {
-        color: #ddd;
+        color: #fffbfb;
         line-height: 1.5;
         font-size: 0.95rem;
     }
@@ -656,7 +656,7 @@ section .main-container {
 
 #finalprojects .project-card:hover {
   transform: scale(1.05);
-}/* Responsive adjustments for Android/iPhone/all devices */
+}
 @media (max-width: 1200px) {
   .nav-container { padding: 0 16px; }
   .nav-container .links { gap: 14px; }

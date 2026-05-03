@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <style>
+
+        body {
+            background-color: lightblue;
+        }
+        .mystyle {
+            background-color:antiquewhite
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="display-4"> Boot Typography</h1>
+    <div class="container mystyle">
+        <h2>Using Heading Templates</h2>
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+        <h1 class="display-5">Display 5</h1>
+        <h1 class="display-6">Display 6</h1>
+    </div>
+
+    <div class="container mystyle">
+        <h2>TExt emphasis</h2>
+        <p class="text-body-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, odit totam? Maiores iusto reiciendis nulla animi! Commodi autem, enim nihil nemo, debitis placeat fuga ea ut veritatis dolor expedita inventore?</p>
+        <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, odit totam? Maiores iusto reiciendis nulla animi! Commodi autem, enim nihil nemo, debitis placeat fuga ea ut veritatis dolor expedita inventore?</p>
+        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, amet?</p>
+        <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, explicabo!</p>
+        <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, explicabo!</p>
+        <p class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, explicabo!</p>
+        <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, explicabo!</p>
+    </div>
+
+    <div class="container mystyle">
+        <h2>BlackQuote Entries  </h2>
+        <figure>
+        <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quam enim dolorem ipsam corporis cum molestiae sint minus obcaecati in ipsa, magni reiciendis aperiam? Rerum aspernatur iste ullam repellendus aut..</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+        </figure>
+    </div>
+
+
+    <div class="container mystyle">
+        <h2>Tables </h2>
+    <table class="table table-success">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        </tr>
+        <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        </tr>
+        <tr>
+        <th scope="row">3</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+
+    <div class="container mystyle">
+        <h2>Picture</h2>
+        <picture>
+        <source srcset="" type="image/svg+xml">
+        <img src="./canva.png" class="img-fluid img-thumbnail" alt="photo of me">
+        </picture>
+    </div>
+    
+    <div class="container mystyle">
+     <h2>button</h2>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+
+    <div class="container mystyle">
+        <h2>Form elements</h2>
+        <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <label for="exampleDataList" class="form-label">Datalist example</label>
+        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+        <datalist id="datalistOptions">
+        <option value="San Francisco">
+        <option value="New York">
+        <option value="Seattle">
+        <option value="Los Angeles">
+        <option value="Chicago">
+        </datalist>
+    </div>
+</body>
+</html>
